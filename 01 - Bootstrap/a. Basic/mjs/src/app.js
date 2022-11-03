@@ -8,5 +8,6 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Express app listening on port ${port}`);
+  const url = `http://localhost:${port}`;
+  console.log(`Express app listening at ${url}`);
 });
