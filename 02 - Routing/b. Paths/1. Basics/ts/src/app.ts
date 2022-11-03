@@ -16,6 +16,10 @@ app.get("/user", (req, res) => {
   res.send("Hello from /user");
 });
 
+app.get("/my.secret", (req, res) => {
+  res.send("Hello from /my.secret");
+});
+
 // Start
 
 app.listen(port, () => {
