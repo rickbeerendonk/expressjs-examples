@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* main */
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "./build",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "moduleResolution": "node",
+
+    /* other */
+    "allowSyntheticDefaultImports": true
+  }
+}
