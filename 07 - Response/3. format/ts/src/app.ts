@@ -6,7 +6,7 @@ import express from "express";
 const app = express();
 const port = 3000;
 
-// Responde content-negotiation
+// Response content-negotiation
 
 app.use((req, res, next) => {
   // Response depends on requested format

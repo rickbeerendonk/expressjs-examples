@@ -6,7 +6,7 @@ import express from "express";
 const app = express();
 const port = 3000;
 
-// Responde json
+// Response json
 
 app.use((req, res, next) => {
   // Response type will automatically be application/json
