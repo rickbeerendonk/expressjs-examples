@@ -28,7 +28,7 @@ class Team {
 
 let teams: Team[] = [
   new Team("Alexandra"),
-  new Team("Benjaming"),
+  new Team("Benjamin"),
   new Team("Charlotte"),
 ];
 
